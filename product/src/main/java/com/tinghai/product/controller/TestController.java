@@ -26,4 +26,9 @@ public class TestController {
     public String helloWorld() {
         return name + "，我的年龄" + age;
     }
+
+    @RequestMapping("/aaa")
+    public String aaa() {
+        return "aaa";
+    }
 }
